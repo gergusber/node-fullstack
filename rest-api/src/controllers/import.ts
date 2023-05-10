@@ -1,13 +1,9 @@
-const globalControllers = {
-  healthyCheck(req: any, res: any) { res.send('<h2>API is running</h2>') }
-}
-export default globalControllers
 
 import { ImportRequest } from "../models/Import";
 import { States } from '../models/Action'
 
 
-const importRequests: ImportRequest[] = [];
+export const importRequests: ImportRequest[] = [];
 
 export const create = (req: any, res: any) => {
   const { bookId, type, url } = req.body;
@@ -26,7 +22,6 @@ export const create = (req: any, res: any) => {
   };
 
   importRequests.push(importRequest);
-
 
   res.status(200).json({ status: 'success', message: 'Import created' })
 };

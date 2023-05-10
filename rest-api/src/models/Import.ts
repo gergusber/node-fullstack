@@ -7,7 +7,7 @@ export interface ImportRequest extends action {
   updatedAt: Date | null;
 }
 
-enum ImportTypes {
+export enum ImportTypes {
   word = "word",
   pdf = "pdf",
   wattpad = "wattpad",

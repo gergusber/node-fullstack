@@ -2,7 +2,7 @@ import { ExportRequest } from "../models/Export";
 import { States } from '../models/Action'
 
 
-const exportRequests: ExportRequest[] = [];
+export const exportRequests: ExportRequest[] = [];
 
 export const create = (req: any, res: any) => {
   const { bookId, type } = req.body;
