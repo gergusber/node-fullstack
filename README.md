@@ -34,7 +34,8 @@ Your approach should:
 Implement a REST API using Express.js that handles Export and Import requests.
 
 The API should expose endpoints to:
-- `POST` a request for a **new Export job**. Valid requests should be saved in memory. Invalid requests should return an error. The request must have the following schema:
+- `POST` a request for a **new Export job**. Valid requests should be saved in memory. Invalid requests should return an error. The request must have the following schema:  bookId: string;
+
 
   ```javascript
   {
