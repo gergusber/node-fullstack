@@ -25,9 +25,9 @@ Your approach should:
 - [ ] show the novel in its current state
 - [ ] show the novel at any point in its history
 - [ ] show the changes made between two versions
-- [ ] prioritize disk space efficiency
-- [ ] discuss any trade-offs made, as well as potential mitigations
-- [ ] consider any potential domain-specific issues
+- [x] prioritize disk space efficiency
+- [x] discuss any trade-offs made, as well as potential mitigations
+- [x] consider any potential domain-specific issues
 
 ## 3. Node.js REST API
 

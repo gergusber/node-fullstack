@@ -1,7 +1,7 @@
 import { ExportRequest } from "../models/Export";
 import { States } from '../models/Action'
 
-
+//here controllers will consume repositories that holds the DAL
 export const exportRequests: ExportRequest[] = [];
 
 export const create = (req: any, res: any) => {
