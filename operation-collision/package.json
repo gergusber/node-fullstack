@@ -1,0 +1,14 @@
+{
+  "name": "operation-collision",
+  "version": "1.0.0",
+  "description": "",
+  "main": "colition.ts",
+  "scripts": {
+    "test": "env TS_NODE_COMPILER_OPTIONS='{\"module\": \"commonjs\" }' mocha -r ts-node/register 'tests/**/*.ts'"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  }
+}
